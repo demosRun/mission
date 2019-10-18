@@ -1,0 +1,158 @@
+<template>
+  <div class="home">
+    <temple _name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png"  _src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page"></temple>
+    <img class="main-img" src="@|bg.jpg|">
+    <div class="content w1000">
+      <img class="title-bar title-bar-1" src="@|title-1.png|">
+      <!-- 视频播放区域 -->
+      <div class="video-box">
+        <temple _name="imageVideoBox"  src="https://owo.ink/public/33a74857ab9fa12ea4eb11d35a0c615f.page"></temple>
+        <h1>“用科技创新推动人类社会的进步”</h1>
+        <div class="page-box">
+          <div class="name-bar">
+            <strong>黄陈宏</strong>
+            <span>戴尔科技集团全球执行副总裁、大中华区总裁</span>
+          </div>
+          <p>
+            &nbsp;&nbsp;拥有美国德克萨斯州 A&M 大学电子工程博士学位。曾发表多篇学术论文，同时也是 13 项专利的发明人或 共同发明人。
+          </p>
+        </div>
+      </div>
+      <!-- 使命图集 -->
+      <img class="title-bar title-bar-2" src="@|title-2.png|">
+      <temple _name="70-swiper"  _src="./src/module/70-swiper.owo"></temple>
+      <img class="title-bar title-bar-3" src="@|title-3.png|">
+      <div class="viewpoint-box w1000">
+        <div class="viewpoint-page">
+          <p>&nbsp;&nbsp;<strong>谈发展</strong>：“一个企业要把自己的业务可持续发展好，最要紧的是把自己真正融入到经济社会中，特别强调对国家经济发展做出贡献，这是“在中国 为中国”的核心含义。”</p>
+          <p>&nbsp;&nbsp;<strong>谈本土化</strong>：“所谓本土化，是要把公司融合进本地的生态系统中。比如说我们过去20年在中国做的最成功的一件事，就是通过我们的技术标准、成本标准、环保标准把国内的产业链提高到世界水平，融入到整个工业体系。”</p>
+          <p>&nbsp;&nbsp;<strong>谈数字化转型</strong>：“数字化转型首先是思想的转型、业务模式的转型，然后再用先进的IT系统为业务带来服务，归根结底是要用数据帮助你做决定。”</p>
+          <p>&nbsp;&nbsp;<strong>谈使命</strong>：“戴尔中国4.0+，要进一步贯彻“在中国，为中国”的发展战略，进一步在新时期为中国经济社会的发展做出贡献，进一步推动中国社会信息化发展，同时要积极融入智能+的国家战略，为国家的发展做出更大贡献。“</p>
+        </div>
+        <img class="people" width="487" height="869" src="@|people.png|">
+      </div>
+      <img class="title-bar title-bar-4" src="@|title-4.png|">
+      <div class="info-box clear">
+        <div class="left">
+          <img width="440" height="290" class="info-img" src="http://www.people.com.cn/NMediaFile/2019/1018/MAIN201910180807116961492932158.jpg"/>
+          <div class="info">
+            <strong>联系我们</strong>
+            <p><span>tel:</span>  11111111111</p>
+            <p>地址：戴尔科技集团全球执行副总裁</p>
+          </div>
+        </div>
+        <div class="right">
+          <p>&nbsp;&nbsp;在中国发展历程中，有一群人始终怀揣信念，在认真做好一件事情的同时，也为推动历史车轮的前行做出了巨大贡献。 这种信念叫使命。</p>
+          <p>&nbsp;&nbsp;《使命》是人民网经济部首档初心谈话栏目。以党媒视角追踪在各领域内影响中国、影响历史的重磅人物，通过多角度深入交流，讲述初心故事，解读个人与企业的使命责任。</p>
+        </div>
+      </div>
+    </div>
+    <temple _name="copyright"  _src="https://owo.ink/public/080195cd2dcfc878e55f9b7f9fa1c9b7.page"></temple>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-img {
+  width: 100%;
+}
+.video-box {
+  .image-video-box {
+    margin: 30px auto;
+    margin-top: 50px;
+  }
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    line-height: 90px;
+    color: #e2a66d;
+    text-shadow: 3px 1px 6px #c39c9c;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+.page-box {
+  width: 905px;
+  height: 242px;
+  padding: 50px 40px;
+  background-image: url('@|page-bg.png|');
+  background-size: 100% 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  strong {
+    margin-right: 10px;
+  }
+  .name-bar {
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-family: "Microsoft YaHei";
+    line-height: 50px;
+  }
+}
+.content .title-bar {
+  margin-top: 40px;
+}
+.viewpoint-box {
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+  .viewpoint-page {
+    width: 603px;
+    height: 799px;
+    padding: 100px 50px;
+    font-size: 24px;
+    line-height: 42px;
+    position: absolute;
+    overflow: auto;
+    right: 0;
+    background-image: url('@|viewpoint-page.png|');
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .people {
+    z-index: 10;
+    position: absolute;
+    left: -165px;
+    bottom: 60px;
+  }
+}
+.info-box {
+  margin-top: 40px;
+  .left {
+    width: 440px;
+    float: left;
+    background-color: #f5f5f4;
+  }
+  .info {
+    margin: 0 20px;
+    font-size: 22px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .right {
+    float: left;
+    width: 460px;
+    height: 407px;
+    padding: 10px 50px;
+    font-size: 24px;
+    line-height: 40px;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+</style>
