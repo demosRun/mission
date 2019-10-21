@@ -1,62 +1,62 @@
-[2019-10-18T15:36:05.014] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-18T15:36:05.017] [INFO] default - 程序运行目录: D:\work\mission
-[2019-10-18T15:36:05.017] [INFO] default - 首次启动!
-[2019-10-18T15:36:05.017] [INFO] default - 生成版本号: 5z5h3vn741u
-[2019-10-18T15:36:05.024] [INFO] default - 清理资源文件夹: D:\work\mission\dist\static
-[2019-10-18T15:36:05.024] [INFO] default - 文件夹不存在: D:\work\mission\dist\static
-[2019-10-18T15:36:05.025] [INFO] default - 创建文件夹: D:\work\mission\dist\static
-[2019-10-18T15:36:05.025] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-18T15:36:05.025] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-18T15:36:05.025] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-18T15:36:05.026] [INFO] default - 开始处理模块: home
-[2019-10-18T15:36:05.061] [INFO] default - 开始处理模块: home
-[2019-10-18T15:36:05.062] [DEBUG] default - 使用文件缓存:D:\work\mission\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-18T15:36:05.068] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-18T15:36:05.074] [DEBUG] default - 模块topBar处理用时: 13 毫秒!
-[2019-10-18T15:36:05.074] [INFO] default - 开始处理模块: home
-[2019-10-18T15:36:05.075] [DEBUG] default - 使用文件缓存:D:\work\mission\owo_modules\ca0e0440aaa5bca7850c275d604b61e1.owo
-[2019-10-18T15:36:05.450] [DEBUG] default - 缓存模板: imageVideoBoxhttps://owo.ink/public/33a74857ab9fa12ea4eb11d35a0c615f.page
-[2019-10-18T15:36:05.490] [DEBUG] default - 模块imageVideoBox处理用时: 416 毫秒!
-[2019-10-18T15:36:05.491] [INFO] default - 开始处理模块: home
-[2019-10-18T15:36:05.503] [DEBUG] default - 缓存模板: 70-swiper./src/module/70-swiper.owo
-[2019-10-18T15:36:05.516] [DEBUG] default - 模块70-swiper处理用时: 25 毫秒!
-[2019-10-18T15:36:05.517] [INFO] default - 开始处理模块: home
-[2019-10-18T15:36:05.517] [DEBUG] default - 使用文件缓存:D:\work\mission\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo
-[2019-10-18T15:36:05.519] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/080195cd2dcfc878e55f9b7f9fa1c9b7.page
-[2019-10-18T15:36:05.523] [DEBUG] default - 模块copyright处理用时: 6 毫秒!
-[2019-10-18T15:36:05.525] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-18T15:36:05.530] [DEBUG] default - 页面home处理用时: 504 毫秒!
-[2019-10-18T15:36:05.533] [INFO] default - 文件夹不存在: D:/work/mission/dist/static/resource
-[2019-10-18T15:36:05.533] [INFO] default - 创建文件夹: D:/work/mission/dist/static/resource
-[2019-10-18T15:36:05.534] [DEBUG] default - 处理资源:  [ 'D:/work/mission/src/resource/page-bg.png',
+[2019-10-21T17:01:11.275] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-10-21T17:01:11.278] [INFO] default - 程序运行目录: D:\work\mission
+[2019-10-21T17:01:11.278] [INFO] default - 首次启动!
+[2019-10-21T17:01:11.278] [INFO] default - 生成版本号: js6wh2rr9fi
+[2019-10-21T17:01:11.286] [INFO] default - 清理资源文件夹: D:\work\mission\dist\static
+[2019-10-21T17:01:11.287] [INFO] default - 文件夹不存在: D:\work\mission\dist\static
+[2019-10-21T17:01:11.287] [INFO] default - 创建文件夹: D:\work\mission\dist\static
+[2019-10-21T17:01:11.287] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-10-21T17:01:11.287] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-10-21T17:01:11.287] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-10-21T17:01:11.289] [INFO] default - 开始处理模块: home
+[2019-10-21T17:01:11.327] [INFO] default - 开始处理模块: home
+[2019-10-21T17:01:11.327] [DEBUG] default - 使用文件缓存:D:\work\mission\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
+[2019-10-21T17:01:11.335] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
+[2019-10-21T17:01:11.342] [DEBUG] default - 模块topBar处理用时: 16 毫秒!
+[2019-10-21T17:01:11.343] [INFO] default - 开始处理模块: home
+[2019-10-21T17:01:11.343] [DEBUG] default - 使用文件缓存:D:\work\mission\owo_modules\ca0e0440aaa5bca7850c275d604b61e1.owo
+[2019-10-21T17:01:11.686] [DEBUG] default - 缓存模板: imageVideoBoxhttps://owo.ink/public/33a74857ab9fa12ea4eb11d35a0c615f.page
+[2019-10-21T17:01:11.726] [DEBUG] default - 模块imageVideoBox处理用时: 384 毫秒!
+[2019-10-21T17:01:11.726] [INFO] default - 开始处理模块: home
+[2019-10-21T17:01:11.739] [DEBUG] default - 缓存模板: 70-swiper./src/module/70-swiper.owo
+[2019-10-21T17:01:11.753] [DEBUG] default - 模块70-swiper处理用时: 27 毫秒!
+[2019-10-21T17:01:11.754] [INFO] default - 开始处理模块: home
+[2019-10-21T17:01:11.754] [DEBUG] default - 使用文件缓存:D:\work\mission\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo
+[2019-10-21T17:01:11.757] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/080195cd2dcfc878e55f9b7f9fa1c9b7.page
+[2019-10-21T17:01:11.761] [DEBUG] default - 模块copyright处理用时: 7 毫秒!
+[2019-10-21T17:01:11.762] [DEBUG] default - 缓存模板: home./src/page/home.page
+[2019-10-21T17:01:11.769] [DEBUG] default - 页面home处理用时: 481 毫秒!
+[2019-10-21T17:01:11.770] [INFO] default - 文件夹不存在: D:/work/mission/dist/static/resource
+[2019-10-21T17:01:11.770] [INFO] default - 创建文件夹: D:/work/mission/dist/static/resource
+[2019-10-21T17:01:11.772] [DEBUG] default - 处理资源:  [ 'D:/work/mission/src/resource/page-bg.png',
   'D:/work/mission/src/resource/viewpoint-page.png' ]
-[2019-10-18T15:36:05.535] [DEBUG] default - 资源目录:  D:/work/mission/dist/static/resource
-[2019-10-18T15:36:05.536] [DEBUG] default - css中的资源处理完毕!
-[2019-10-18T15:36:05.536] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-18T15:36:05.604] [INFO] default - 文件夹不存在: D:\work\mission\dist\static\css
-[2019-10-18T15:36:05.604] [INFO] default - 创建文件夹: D:\work\mission\dist\static\css
-[2019-10-18T15:36:05.604] [INFO] default - 开始处理附属css中的资源
-[2019-10-18T15:36:05.604] [INFO] default - 附属css中的资源处理完毕!
-[2019-10-18T15:36:05.605] [INFO] default - 处理字体: {}
-[2019-10-18T15:36:05.610] [INFO] default - 使用postcss处理完毕! 用时: 74 毫秒
-[2019-10-18T15:36:05.611] [INFO] default - 正在处理script!
-[2019-10-18T15:36:05.612] [INFO] default - 工程中只有一个页面!
-[2019-10-18T15:36:05.613] [INFO] default - 文件夹不存在: D:\work\mission\dist\static\js
-[2019-10-18T15:36:05.613] [INFO] default - 创建文件夹: D:\work\mission\dist\static\js
-[2019-10-18T15:36:06.290] [INFO] default - js中的资源处理完毕!
-[2019-10-18T15:36:06.290] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"swiper3","src":"http://politics.people.com.cn/img/MAIN/2019/09/119665/js/swiper3.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-18T15:36:06.291] [DEBUG] default - 外部脚本数量: 4
-[2019-10-18T15:36:06.291] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-18T15:36:06.291] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-18T15:36:06.291] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-18T15:36:06.291] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-18T15:36:06.291] [DEBUG] default - 处理脚本: swiper3
-[2019-10-18T15:36:06.291] [DEBUG] default - 网络脚本: swiper3
-[2019-10-18T15:36:06.291] [DEBUG] default - 处理脚本: main
-[2019-10-18T15:36:06.291] [INFO] default - 读取文件: D:\work\mission\src\main.js
-[2019-10-18T15:36:06.291] [DEBUG] default - 输出scriptData
-[2019-10-18T15:36:06.291] [DEBUG] default - 准备输出html!
-[2019-10-18T15:36:06.292] [DEBUG] default - 处理资源:  [ 'D:/work/mission/src/resource/bg.jpg',
+[2019-10-21T17:01:11.772] [DEBUG] default - 资源目录:  D:/work/mission/dist/static/resource
+[2019-10-21T17:01:11.774] [DEBUG] default - css中的资源处理完毕!
+[2019-10-21T17:01:11.774] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-10-21T17:01:11.841] [INFO] default - 文件夹不存在: D:\work\mission\dist\static\css
+[2019-10-21T17:01:11.842] [INFO] default - 创建文件夹: D:\work\mission\dist\static\css
+[2019-10-21T17:01:11.842] [INFO] default - 开始处理附属css中的资源
+[2019-10-21T17:01:11.843] [INFO] default - 附属css中的资源处理完毕!
+[2019-10-21T17:01:11.843] [INFO] default - 处理字体: {}
+[2019-10-21T17:01:11.849] [INFO] default - 使用postcss处理完毕! 用时: 74 毫秒
+[2019-10-21T17:01:11.849] [INFO] default - 正在处理script!
+[2019-10-21T17:01:11.850] [INFO] default - 工程中只有一个页面!
+[2019-10-21T17:01:11.851] [INFO] default - 文件夹不存在: D:\work\mission\dist\static\js
+[2019-10-21T17:01:11.852] [INFO] default - 创建文件夹: D:\work\mission\dist\static\js
+[2019-10-21T17:01:12.375] [INFO] default - js中的资源处理完毕!
+[2019-10-21T17:01:12.375] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"swiper3","src":"http://politics.people.com.cn/img/MAIN/2019/09/119665/js/swiper3.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-10-21T17:01:12.376] [DEBUG] default - 外部脚本数量: 4
+[2019-10-21T17:01:12.376] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-10-21T17:01:12.376] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-10-21T17:01:12.376] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-10-21T17:01:12.376] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-10-21T17:01:12.376] [DEBUG] default - 处理脚本: swiper3
+[2019-10-21T17:01:12.376] [DEBUG] default - 网络脚本: swiper3
+[2019-10-21T17:01:12.376] [DEBUG] default - 处理脚本: main
+[2019-10-21T17:01:12.376] [INFO] default - 读取文件: D:\work\mission\src\main.js
+[2019-10-21T17:01:12.376] [DEBUG] default - 输出scriptData
+[2019-10-21T17:01:12.377] [DEBUG] default - 准备输出html!
+[2019-10-21T17:01:12.377] [DEBUG] default - 处理资源:  [ 'D:/work/mission/src/resource/bg.jpg',
   'D:/work/mission/src/resource/title-1.png',
   'D:/work/mission/src/resource/play-button.png',
   'D:/work/mission/src/resource/title-2.png',
@@ -64,12 +64,12 @@
   'D:/work/mission/src/resource/title-3.png',
   'D:/work/mission/src/resource/people.png',
   'D:/work/mission/src/resource/title-4.png' ]
-[2019-10-18T15:36:06.292] [DEBUG] default - 资源目录:  D:/work/mission/dist/static/resource
-[2019-10-18T15:36:06.293] [DEBUG] default - 开始美化html
-[2019-10-18T15:36:06.308] [INFO] default - 编译结束!
-[2019-10-18T15:36:06.340] [INFO] default - 写入文件: D:\work\mission\dist\static\css\owo.main.5z5h3vn741u.css
-[2019-10-18T15:36:06.341] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-18T15:36:06.341] [INFO] default - 读取成功: D:\work\mission\src\main.css
-[2019-10-18T15:36:06.342] [INFO] default - 读取成功: D:\work\mission\src\main.js
-[2019-10-18T15:36:06.381] [INFO] default - 写入文件: D:\work\mission\dist\static\js\main.js
-[2019-10-18T15:36:06.381] [INFO] default - 写入文件: D:\work\mission\dist\static\css\main.css
+[2019-10-21T17:01:12.378] [DEBUG] default - 资源目录:  D:/work/mission/dist/static/resource
+[2019-10-21T17:01:12.378] [DEBUG] default - 开始美化html
+[2019-10-21T17:01:12.394] [INFO] default - 编译结束!
+[2019-10-21T17:01:12.469] [INFO] default - 写入文件: D:\work\mission\dist\static\css\owo.main.js6wh2rr9fi.css
+[2019-10-21T17:01:12.469] [INFO] default - 主要逻辑文件写出成功!
+[2019-10-21T17:01:12.474] [INFO] default - 读取成功: D:\work\mission\src\main.css
+[2019-10-21T17:01:12.474] [INFO] default - 读取成功: D:\work\mission\src\main.js
+[2019-10-21T17:01:12.642] [INFO] default - 写入文件: D:\work\mission\dist\static\css\main.css
+[2019-10-21T17:01:12.642] [INFO] default - 写入文件: D:\work\mission\dist\static\js\main.js

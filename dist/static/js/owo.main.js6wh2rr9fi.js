@@ -1,4 +1,4 @@
-// Fri Oct 18 2019 15:36:05 GMT+0800 (GMT+08:00)
+// Mon Oct 21 2019 17:01:11 GMT+0800 (GMT+08:00)
 
 // 存储页面基本信息
 var owo = {
@@ -19,9 +19,6 @@ owo.script = {
   "home": {
     "created": function created() {},
     "template": {
-      "topBar": {
-        "prop": {}
-      },
       "imageVideoBox": {
         "created": function created() {},
         "play": function play() {
@@ -43,7 +40,7 @@ owo.script = {
       "70-swiper": {
         "created": function created() {
           // 判断IE
-          if (a = !-[1]) {
+          if (window.navigator.userAgent.indexOf("MSIE") >= 1) {
             $('.bk-32').removeClass('swiper333');
             var swiper32 = new Swiper('.swiper-container32', {
               autoplay: 3000,
@@ -113,11 +110,7 @@ owo.script = {
               paginationClickable: true
             });
           }
-        },
-        "prop": {}
-      },
-      "copyright": {
-        "prop": {}
+        }
       }
     }
   }
@@ -200,7 +193,7 @@ _owo._run = function (eventFor, templateName, event) {
 
 _owo.bindEvent = function (eventName, eventFor, tempDom, templateName) {
   tempDom['on' + eventName] = function(event) {
-    _owo._run(eventFor, templateName, event)
+    _owo._run(eventFor, templateName, event || this)
   }
 }
 
@@ -217,7 +210,7 @@ _owo.handleEvent = function (tempDom, templateName) {
       // ie不支持startsWith
       if (attribute.name[0] == ':') {
         var eventName = attribute.name.slice(1)
-        var eventFor = attribute.textContent
+        var eventFor = attribute.textContent || attribute.value
         switch (eventName) {
           case 'show' : {
             // 初步先简单处理吧
@@ -234,7 +227,7 @@ _owo.handleEvent = function (tempDom, templateName) {
             // 根据手机和PC做不同处理
             if (_owo.isMobi) {
               _owo._event_tap(tempDom, function (event) {
-                _owo._run(eventFor, templateName, event)
+                _owo._run(eventFor, templateName, event || this)
               })
             } else _owo.bindEvent('click', eventFor, tempDom, templateName)
             break
@@ -314,13 +307,13 @@ _owo.ready = (function() {               //这个函数返回whenReady()函数
   
   //当文档就绪时,调用事件处理程序
   function handler(e) {
-    // 确保事件处理程序只运行一次
-    if(window.owo.state.isRrady) return
-    window.owo.state.isRrady = true
     //如果发生onreadystatechange事件，但其状态不是complete的话,那么文档尚未准备好
     if(e.type === 'onreadystatechange' && document.readyState !== 'complete') {
       return
     }
+    // 确保事件处理程序只运行一次
+    if(window.owo.state.isRrady) return
+    window.owo.state.isRrady = true
     
     // 运行所有注册函数
     for(var i=0; i<funcs.length; i++) {

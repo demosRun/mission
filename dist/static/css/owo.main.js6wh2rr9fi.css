@@ -3,11 +3,6 @@ body, html, .owo, .page-box {
   margin: 0;
 }
 
-.page-box, .owo {
-  width: 100%;
-  height: 100%;
-}
-
 .owo-animation {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
@@ -27,6 +22,9 @@ body, html, .owo, .page-box {
 
 a:link, a:visited {
   text-decoration: none;
+}
+img {
+  border: none;
 }
 
 /* 清除浮动 */
@@ -122,6 +120,10 @@ li {
   margin: auto;
   cursor: pointer;
 }
+.bg-wrap7 {
+  overflow: hidden;
+}
+
 .swiper333 * {
   box-sizing: border-box;
 }
@@ -279,7 +281,8 @@ li {
   width: 100%;
 }
 
-.swiper333  .swiper-pagination-bullet {
+.swiper333 .swiper-pagination-bullet,
+.swiper333 .swiper-pagination-switch {
   width: 8px;
   height: 8px;
   display: inline-block;
@@ -288,7 +291,7 @@ li {
   opacity: .2;
 }
 
-button.swiper-pagination-bullet {
+.swiper-pagination-bullet {
   border: none;
   margin: 0;
   padding: 0;
@@ -297,6 +300,35 @@ button.swiper-pagination-bullet {
   -ms-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  width: 12px;
+  height: 12px;
+  margin: 0 2px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: .2;
+}
+
+.swiper-active-switch {
+  background-color: #b67f44;
+}
+
+.swiper-pagination-switch {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  margin: 0 2px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #ccc;
+  opacity: .2;
 }
 
 .swiper333  .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -911,7 +943,6 @@ button.swiper-pagination-bullet {
 .bk {
   width: 1000px;
   box-sizing: border-box;
-  margin: 60px auto 0 auto;
   position: relative;
 }
 
@@ -923,6 +954,8 @@ button.swiper-pagination-bullet {
   position: relative;
   width: 929px;
   height: 453px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .bk-32 .swiper32-wrap2,
@@ -956,6 +989,7 @@ button.swiper-pagination-bullet {
   margin-left: -365px;
   width: 730px;
   height: 400px;
+  overflow: hidden;
 }
 
 .pagination32 {
@@ -972,8 +1006,11 @@ button.swiper-pagination-bullet {
 
 .bk-32 .bg-papper {
   position: absolute;
-  left: 7px;
-  top: 7px;
+  left: 0;
+  top: 0;
+  right: 0;
+  border: 0;
+  margin: auto;
   width: 98%;
   height: auto;
 }
@@ -981,16 +1018,18 @@ button.swiper-pagination-bullet {
 .bk-32 .bg-cehua {
   position: absolute;
   left: 0;
-  bottom: 19px;
+  bottom: 24px;
   z-index: 3;
   width: 100%;
   height: auto;
 }
 
-.bk-32 {
-  margin: 60px auto 0 auto;
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
-.owo-copyright footer {
+footer {
   color: #000000;
   font-size: 12px;
   background-color: #ffffff;
